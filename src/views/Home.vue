@@ -40,9 +40,11 @@ onMounted(() => {
 </script>
 
 <template>
+
+
   <div class="container mx-auto p-4">
     <h1 class="text-2xl font-bold mb-4">Fake Store</h1>
-
+1
     <!-- Búsqueda -->
     <input
       v-model="searchQuery"
@@ -76,6 +78,5 @@ onMounted(() => {
       </button>
     </div>
   </div>
+  
 </template>
-
-
