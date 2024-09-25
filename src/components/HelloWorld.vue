@@ -6,7 +6,7 @@ import axios from 'axios';
 // Definir variables reactivas
 const products = ref([]);
 const searchQuery = ref('');
-const productsPerPage = ref(5);
+const productsPerPage = ref(10);
 const currentPage = ref(1);
 
 // Computed para filtrar los productos
@@ -58,6 +58,7 @@ onMounted(() => {
         :key="product.id"
         class="border p-4 rounded shadow"
       >
+      <p class="text-gray-700">{{ product.id }}</p>
         <img :src="product.image" alt="" class="h-40 w-full object-contain mb-4" />
         <h2 class="text-xl font-semibold">{{ product.title }}</h2>
         <p class="text-gray-700">{{ product.price }} $</p>
