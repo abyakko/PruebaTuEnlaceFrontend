@@ -3,9 +3,23 @@
 
 Este proyecto es una aplicación frontend construida con Vue 3, Tailwind CSS y Axios, y empaquetado con Vite. Proporciona una interfaz de usuario moderna y responsiva para interactuar con una API.
 
+## Despliegue en la web
+
+Puedes revisar el proyecto en funcionamiento visitando el siguiente enlace:
+
+[Ver el proyecto en la web](https://pruebayuenlacefrontend.vercel.app/)
+
+Este enlace te llevará a la versión desplegada de la aplicación donde podrás explorar las funcionalidades desarrolladas y ver cómo se comporta en un entorno real.
+
+el segundo botón no funciona ya que no alcanzo el tiempo para la publicación d el api de la segunda prueba.
+
+
 ## Tecnologías Utilizadas
 
 - **Vue 3**: Framework JavaScript para construir interfaces de usuario reactivas y componentizadas. Escogí Vue 3 debido a su facilidad para crear aplicaciones rápidas y escalables con un enfoque simple y limpio para la gestión del estado.
+
+- **Vue Router**: Este proyecto utiliza **Vue Router** para la navegación entre las diferentes vistas de la aplicación. Vue Router facilita la creación de rutas dinámicas, permitiendo que la aplicación sea de una sola página (SPA), lo que mejora la experiencia del usuario al no necesitar recargar la página completa durante la navegación.
+
 - **Tailwind CSS**: Framework de utilidades para CSS que permite crear diseños rápidos y responsivos sin necesidad de escribir CSS personalizado. Escogí Tailwind por su capacidad para crear interfaces modernas y personalizables sin la sobrecarga de CSS tradicional.
 - **Axios**: Cliente HTTP basado en promesas para consumir APIs. Es más sencillo y directo para manejar solicitudes que la API nativa de fetch.
 - **Vite**: Herramienta rápida y ligera de construcción de proyectos (bundling). Vite acelera el desarrollo local y empaqueta la aplicación para producción de manera eficiente.
@@ -24,19 +38,25 @@ Antes de comenzar, asegúrate de tener instalado:
 1. Clona el repositorio en tu máquina local:
 
 ```bash
-git clone https://github.com/usuario/nombre-del-repositorio.git
+git clone https://github.com/abyakko/PruebaTuEnlaceFrontend.git
 ```
 
 2. Accede al directorio del proyecto:
 
 ```bash
-cd nombre-del-repositorio
+cd PruebaTuEnlaceFrontend
 ```
 
 3. Instala las dependencias necesarias usando `npm`:
 
 ```bash
 npm install
+```
+
+3. Instala las dependencias necesarias usando `npm`:
+
+```bash
+npm install vue-router
 ```
 
 4. Ejecuta el servidor de desarrollo local usando Vite:
@@ -63,27 +83,12 @@ npm run build
 
 Esto empaquetará tu aplicación en un conjunto de archivos optimizados y listos para ser desplegados en un servidor.
 
-## Estructura del Proyecto
-
-- `src/`: Contiene los archivos fuente del proyecto.
-  - `components/`: Componentes Vue utilizados en la aplicación.
-  - `assets/`: Archivos estáticos como imágenes y fuentes.
-  - `App.vue`: Componente principal de la aplicación.
-  - `main.js`: Punto de entrada de la aplicación.
 
 ## Personalización
 
 - **Tailwind CSS**: Puedes personalizar los estilos en el archivo `tailwind.config.js`.
 - **Axios**: Los endpoints de la API se configuran en los archivos que realizan las solicitudes. Puedes modificar estos endpoints según tu API en el archivo Vue correspondiente.
 
-## Cómo Contribuir
 
-1. Haz un fork del proyecto
-2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`)
-3. Realiza tus cambios y haz commit (`git commit -m 'Añadir nueva funcionalidad'`)
-4. Haz push a la rama (`git push origin feature/nueva-funcionalidad`)
-5. Abre un Pull Request
-
----
-
-¡Gracias por usar este proyecto! Si tienes alguna pregunta o problema, no dudes en abrir un issue en el repositorio.
+Nombre: Abraham Perez Nina
+Cel: +591 67254169
